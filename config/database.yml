@@ -23,17 +23,17 @@ development:
 test:
   adapter: mysql2
   encoding: utf8
-  database: mysql_test_test
+  database: test
   pool: 5
-  username: root
-  password:
+  username: test
+  password: testestes
   socket: /var/lib/mysql/mysql.sock
 
 production:
   adapter: mysql2
   encoding: utf8
-  database: mysql_test_production
+  database: production
   pool: 5
-  username: root
-  password:
+  username: prod
+  password: Catch3r1nTh3Ry3
   socket: /var/lib/mysql/mysql.sock
